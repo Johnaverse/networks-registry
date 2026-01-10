@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         // Fetch the registry data
-        const response = await fetch('../public/TheGraphNetworksRegistry.json');
+        const response = await fetch('https://raw.githubusercontent.com/graphprotocol/networks-registry/refs/heads/main/public/TheGraphNetworksRegistry.json');
 
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
