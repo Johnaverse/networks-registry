@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Graph Networks Registry Visualization</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.28.1/cytoscape.min.js"></script>
+    <script src="https://unpkg.com/dagre@0.7.4/dist/dagre.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape-dagre@2.5.0/cytoscape-dagre.min.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <header class="glass-header">
+            <div class="header-content">
+                <h1>The Graph Networks Registry</h1>
+                <p>Visualizing Network Relationships</p>
+            </div>
+            <div class="controls">
+                <div class="control-section">
+                    <h3 class="section-title">Layout</h3>
+                    <select id="layout-select">
+                        <option value="dagre" selected>Hierarchical (Dagre)</option>
+                        <option value="breadthfirst">Tree (Breadthfirst)</option>
+                        <option value="circle">Circle</option>
+                        <option value="concentric">Concentric</option>
+                        <option value="grid">Grid</option>
+                        <option value="cose">Force Directed (CoSE)</option>
+                    </select>
+                </div>
+
+                <div class="control-section">
+                    <h3 class="section-title">Filters</h3>
+                    <div class="toggle-rows">
+                        <div class="toggle-row">
+                            <label class="switch">
+                                <input type="checkbox" id="filter-l2" checked>
+                                <span class="slider"></span>
+                            </label>
+                            <span class="toggle-label">L2 Relations</span>
+                        </div>
+                        <div class="toggle-row">
+                            <label class="switch">
+                                <input type="checkbox" id="filter-testnet" checked>
+                                <span class="slider"></span>
+                            </label>
+                            <span class="toggle-label">Testnet Relations</span>
+                        </div>
+                        <div class="toggle-row">
+                            <label class="switch">
+                                <input type="checkbox" id="filter-beacon" checked>
+                                <span class="slider"></span>
+                            </label>
+                            <span class="toggle-label">Beacon Relations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <span class="dot mainnet"></span> Mainnet
+                </div>
+                <div class="legend-item">
+                    <span class="dot testnet"></span> Testnet
+                </div>
+                <div class="legend-item">
+                    <span class="dot beacon-node"></span> Beacon Node
+                </div>
+                <br />
+                <div class="legend-item">
+                    <span class="line l2-line"></span> L2 Relation
+                </div>
+                <div class="legend-item">
+                    <span class="line testnet-line"></span> Testnet Relation
+                </div>
+                <div class="legend-item">
+                    <span class="line beacon-line"></span> Beacon Relation
+                </div>
+            </div>
+        </header>
+
+        <main id="cy"></main>
+
+        <div id="tooltip" class="tooltip hidden">
+            <!-- Dynamic Content -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

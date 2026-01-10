@@ -32,3 +32,11 @@ jobs:
           git checkout main
           git merge upstream/main --no-edit
           git push origin main
+
+      - name: Sync feature/github-page branch
+        run: |
+          echo "Syncing feature/github-page branch..."
+          git checkout feature/github-page
+          git merge upstream/main --no-edit
+          git push origin feature/github-page
+          echo "✓ feature/github-page branch synced"
