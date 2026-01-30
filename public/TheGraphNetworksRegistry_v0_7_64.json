@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.65",
+  "version": "0.7.64",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-01-27T17:04:44.808Z",
+  "updatedAt": "2026-01-14T21:44:15.486Z",
   "networks": [
     {
       "id": "mainnet",
@@ -922,7 +922,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -979,7 +981,9 @@
         }
       ],
       "services": {
-        "subgraphs": [],
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ],
         "sps": [],
         "firehose": [
           "fuse.firehose.pinax.network:443"
@@ -1401,7 +1405,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -2580,7 +2586,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -2652,7 +2660,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "issuanceRewards": false,
       "nativeToken": "ETH",
@@ -3669,7 +3679,9 @@
         "https://rpc.lens.dev"
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "networkType": "mainnet",
       "relations": [
@@ -4881,7 +4893,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "issuanceRewards": false,
       "nativeToken": "GRASS",
@@ -7280,7 +7294,9 @@
         }
       ],
       "services": {
-        "subgraphs": [],
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ],
         "sps": [],
         "firehose": [
           "blast.firehose.pinax.network:443"

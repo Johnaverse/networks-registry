@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.63",
+  "version": "0.7.65",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-01-07T16:35:46.814Z",
+  "updatedAt": "2026-01-27T17:04:44.808Z",
   "networks": [
     {
       "id": "mainnet",
@@ -922,9 +922,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "networkType": "testnet",
       "relations": [
@@ -981,9 +979,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ],
+        "subgraphs": [],
         "sps": [],
         "firehose": [
           "fuse.firehose.pinax.network:443"
@@ -1405,9 +1401,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "networkType": "testnet",
       "relations": [
@@ -2586,9 +2580,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "networkType": "testnet",
       "relations": [
@@ -2660,9 +2652,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "issuanceRewards": false,
       "nativeToken": "ETH",
@@ -2785,12 +2775,8 @@
       "services": {
         "subgraphs": [],
         "sps": [],
-        "firehose": [
-          "holesky.eth.streamingfast.io:443"
-        ],
-        "substreams": [
-          "holesky.eth.streamingfast.io:443"
-        ]
+        "firehose": [],
+        "substreams": []
       },
       "issuanceRewards": false,
       "nativeToken": "ETH",
@@ -3683,9 +3669,7 @@
         "https://rpc.lens.dev"
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "networkType": "mainnet",
       "relations": [
@@ -4897,9 +4881,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "issuanceRewards": false,
       "nativeToken": "GRASS",
@@ -7298,9 +7280,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ],
+        "subgraphs": [],
         "sps": [],
         "firehose": [
           "blast.firehose.pinax.network:443"
@@ -8781,12 +8761,10 @@
         "subgraphs": [],
         "sps": [],
         "firehose": [
-          "bitcoin.firehose.pinax.network:443",
-          "mainnet.btc.streamingfast.io:443"
+          "bitcoin.firehose.pinax.network:443"
         ],
         "substreams": [
-          "bitcoin.substreams.pinax.network:443",
-          "mainnet.btc.streamingfast.io:443"
+          "bitcoin.substreams.pinax.network:443"
         ]
       },
       "issuanceRewards": false,
