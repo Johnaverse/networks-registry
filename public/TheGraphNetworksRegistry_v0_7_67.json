@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.68",
+  "version": "0.7.67",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-02-10T17:50:50.688Z",
+  "updatedAt": "2026-02-10T17:42:23.416Z",
   "networks": [
     {
       "id": "mainnet",
@@ -1153,7 +1153,9 @@
         }
       ],
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -4403,7 +4405,9 @@
       ],
       "networkType": "mainnet",
       "services": {
-        "subgraphs": []
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
       },
       "issuanceRewards": false,
       "nativeToken": "ZIL",
