@@ -6,17 +6,14 @@
   "caip2Id": "eip155:1284",
   "graphNode": { "protocol": "ethereum" },
   "explorerUrls": ["https://moonbeam.moonscan.io"],
-  "rpcUrls": [
-    "https://rpc.api.moonbeam.network",
-    "https://moonbeam.rpc.service.pinax.network"
-  ],
+  "rpcUrls": ["https://rpc.api.moonbeam.network"],
   "apiUrls": [
     { "url": "https://moonbeam.abi.pinax.network/api", "kind": "etherscan" }
   ],
   "services": {
     "subgraphs": ["https://api.studio.thegraph.com/deploy"],
-    "firehose": ["moonbeam.firehose.pinax.network:443"],
-    "substreams": ["moonbeam.substreams.pinax.network:443"]
+    "firehose": [],
+    "substreams": []
   },
   "networkType": "mainnet",
   "issuanceRewards": true,

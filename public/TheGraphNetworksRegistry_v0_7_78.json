@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.79",
+  "version": "0.7.78",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-03-31T14:04:44.759Z",
+  "updatedAt": "2026-03-16T21:13:34.569Z",
   "networks": [
     {
       "id": "mainnet",
@@ -1140,7 +1140,8 @@
         "https://moonbeam.moonscan.io"
       ],
       "rpcUrls": [
-        "https://rpc.api.moonbeam.network"
+        "https://rpc.api.moonbeam.network",
+        "https://moonbeam.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -1152,8 +1153,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "moonbeam.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "moonbeam.substreams.pinax.network:443"
+        ]
       },
       "networkType": "mainnet",
       "issuanceRewards": true,
@@ -1201,7 +1206,8 @@
         "https://moonriver.moonscan.io"
       ],
       "rpcUrls": [
-        "https://rpc.api.moonriver.moonbeam.network"
+        "https://rpc.api.moonriver.moonbeam.network",
+        "https://moonriver.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -1213,8 +1219,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "moonriver.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "moonriver.substreams.pinax.network:443"
+        ]
       },
       "networkType": "mainnet",
       "relations": [
@@ -3491,7 +3501,8 @@
         "https://ftmscout.com"
       ],
       "rpcUrls": [
-        "https://fantom.drpc.org"
+        "https://fantom.drpc.org",
+        "https://fantom.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -3503,8 +3514,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "fantom.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "fantom.substreams.pinax.network:443"
+        ]
       },
       "networkType": "mainnet",
       "issuanceRewards": true,
@@ -5651,7 +5666,8 @@
         "https://sepolia.scrollscan.com"
       ],
       "rpcUrls": [
-        "https://sepolia-rpc.scroll.io"
+        "https://sepolia-rpc.scroll.io",
+        "https://scrsepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5667,8 +5683,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "scrsepolia.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "scrsepolia.substreams.pinax.network:443"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -5719,7 +5739,8 @@
         "https://scrollscan.com"
       ],
       "rpcUrls": [
-        "https://rpc.scroll.io"
+        "https://rpc.scroll.io",
+        "https://scroll.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5736,8 +5757,12 @@
           "https://api.studio.thegraph.com/deploy"
         ],
         "sps": [],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "scroll.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "scroll.substreams.pinax.network:443"
+        ]
       },
       "networkType": "mainnet",
       "relations": [
@@ -5989,7 +6014,8 @@
         "https://sepolia.lineascan.build"
       ],
       "rpcUrls": [
-        "https://rpc.sepolia.linea.build"
+        "https://rpc.sepolia.linea.build",
+        "https://lineasepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6005,8 +6031,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "lineasepolia.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "lineasepolia.substreams.pinax.network:443"
+        ]
       },
       "networkType": "testnet",
       "relations": [
@@ -6058,6 +6088,7 @@
       ],
       "rpcUrls": [
         "https://rpc.linea.build",
+        "https://linea.rpc.service.pinax.network",
         "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "apiUrls": [
@@ -6074,8 +6105,12 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [],
-        "substreams": []
+        "firehose": [
+          "linea.firehose.pinax.network:443"
+        ],
+        "substreams": [
+          "linea.substreams.pinax.network:443"
+        ]
       },
       "networkType": "mainnet",
       "relations": [

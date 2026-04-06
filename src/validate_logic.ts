@@ -23,6 +23,8 @@ const ALLOWED_ETHEREUM_LIST_MISSING: string[] = [
   "polkadot-testnet",
   "stable",
   "tempo-andantino",
+  "hyper-evm",
+  "tempo"
 ];
 
 function validateFilenames(networksPath: string) {

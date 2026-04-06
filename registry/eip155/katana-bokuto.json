@@ -1,21 +1,28 @@
 {
-  "id": "katana-tatara",
+  "id": "katana-bokuto",
   "shortName": "Katana",
-  "fullName": "Katana Tatara Testnet",
-  "aliases": ["evm-129399"],
-  "caip2Id": "eip155:129399",
+  "fullName": "Katana Bokuto Testnet",
+  "aliases": ["evm-737373"],
+  "caip2Id": "eip155:737373",
   "graphNode": { "protocol": "ethereum" },
-  "explorerUrls": ["https://explorer.tatara.katana.network"],
-  "rpcUrls": ["https://rpc.tatara.katanarpc.com"],
-  "apiUrls": [
-    { "url": "https://explorer.tatara.katana.network/api", "kind": "etherscan" }
+  "explorerUrls": ["https://bokuto.katanascan.com"],
+  "rpcUrls": [
+    "https://katana-bokuto.gateway.tenderly.co",
+    "https://rpc-bokuto.katanarpc.com"
   ],
-  "services": { "subgraphs": ["https://api.studio.thegraph.com/deploy"] },
+  "apiUrls": [
+    {
+      "url": "https://katana-bokuto.abi.pinax.network/api",
+      "kind": "etherscan"
+    }
+  ],
+  "services": { "subgraphs": [] },
   "networkType": "testnet",
   "relations": [
     { "kind": "l2Of", "network": "sepolia" },
     { "kind": "testnetOf", "network": "katana" }
   ],
+  "docsUrl": "https://docs.katana.network",
   "issuanceRewards": false,
   "nativeToken": "ETH",
   "firehose": {
@@ -24,7 +31,7 @@
     "bufUrl": "https://buf.build/streamingfast/firehose-ethereum",
     "bytesEncoding": "hex",
     "firstStreamableBlock": {
-      "id": "0xbca38f4936fefe65751e55b3f3f88fec27d478e283b6bb92b5268e2ffcea7716",
+      "id": "0x23a3f9f69af51572119a55ad6c14b65075a75b8a588933b2c4383acee63544df",
       "height": 0
     },
     "blockFeatures": ["extended"]

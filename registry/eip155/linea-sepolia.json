@@ -7,10 +7,7 @@
   "caip2Id": "eip155:59141",
   "graphNode": { "protocol": "ethereum" },
   "explorerUrls": ["https://sepolia.lineascan.build"],
-  "rpcUrls": [
-    "https://rpc.sepolia.linea.build",
-    "https://lineasepolia.rpc.service.pinax.network"
-  ],
+  "rpcUrls": ["https://rpc.sepolia.linea.build"],
   "apiUrls": [
     {
       "url": "https://linea-sepolia.abi.pinax.network/api",
@@ -23,8 +20,8 @@
   ],
   "services": {
     "subgraphs": ["https://api.studio.thegraph.com/deploy"],
-    "firehose": ["lineasepolia.firehose.pinax.network:443"],
-    "substreams": ["lineasepolia.substreams.pinax.network:443"]
+    "firehose": [],
+    "substreams": []
   },
   "networkType": "testnet",
   "relations": [

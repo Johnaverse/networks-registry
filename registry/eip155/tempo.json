@@ -1,15 +1,14 @@
 {
-  "id": "tempo-andantino",
+  "id": "tempo",
   "shortName": "tempo",
-  "fullName": "Tempo Andantino Testnet",
-  "aliases": ["evm-42429"],
-  "caip2Id": "eip155:42429",
+  "fullName": "Tempo Mainnet",
+  "aliases": ["evm-4217", "tempo-mainnet"],
+  "caip2Id": "eip155:4217",
   "graphNode": { "protocol": "ethereum" },
-  "explorerUrls": ["https://scout.tempo.xyz"],
-  "rpcUrls": ["https://rpc.testnet.tempo.xyz"],
-  "apiUrls": [{ "url": "https://scout.tempo.xyz/api", "kind": "blockscout" }],
+  "explorerUrls": ["https://explore.tempo.xyz"],
+  "rpcUrls": ["https://tempo-mainnet.drpc.org"],
   "services": { "subgraphs": ["https://api.studio.thegraph.com/deploy"] },
-  "networkType": "testnet",
+  "networkType": "mainnet",
   "issuanceRewards": false,
   "nativeToken": "USD",
   "docsUrl": "https://docs.tempo.xyz",
@@ -19,9 +18,10 @@
     "bufUrl": "https://buf.build/streamingfast/firehose-ethereum",
     "bytesEncoding": "hex",
     "firstStreamableBlock": {
-      "id": "0x8561f1bc7c4bbada054f2edc616deb0be221d4b2f712dc0ba8f7ef385ec86ce9",
+      "id": "0x846ef97031bf5b01e2279f19850ae3a66793407491c645db7f13ba2d88b54db8",
       "height": 0
     },
     "blockFeatures": ["base"]
-  }
+  },
+  "icon": { "web3Icons": { "name": "tempo" } }
 }
