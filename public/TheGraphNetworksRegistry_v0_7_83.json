@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.85",
+  "version": "0.7.83",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-04-28T20:58:36.807Z",
+  "updatedAt": "2026-04-28T20:56:50.852Z",
   "networks": [
     {
       "id": "mainnet",
@@ -2968,18 +2968,11 @@
       ],
       "rpcUrls": [
         "https://rpc.xlayer.tech",
-        "https://xlayerrpc.okx.com",
-        "https://xlayer.rpc.service.pinax.network"
+        "https://xlayerrpc.okx.com"
       ],
       "services": {
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
-        ],
-        "firehose": [
-          "xlayer.firehose.pinax.network:443"
-        ],
-        "substreams": [
-          "xlayer.substreams.pinax.network:443"
         ]
       },
       "networkType": "mainnet",
@@ -6033,8 +6026,7 @@
       ],
       "rpcUrls": [
         "https://rpc.linea.build",
-        "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
-        "https://linea.rpc.service.pinax.network"
+        "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}"
       ],
       "apiUrls": [
         {
@@ -6050,12 +6042,8 @@
         "subgraphs": [
           "https://api.studio.thegraph.com/deploy"
         ],
-        "firehose": [
-          "linea.firehose.pinax.network:443"
-        ],
-        "substreams": [
-          "linea.substreams.pinax.network:443"
-        ]
+        "firehose": [],
+        "substreams": []
       },
       "networkType": "mainnet",
       "relations": [
