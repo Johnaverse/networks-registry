@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.91",
+  "version": "0.7.94",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-05-27T21:02:04.003Z",
+  "updatedAt": "2026-05-28T21:28:17.809Z",
   "networks": [
     {
       "id": "mainnet",
@@ -59,7 +59,7 @@
           "eth.substreams.data.nexus:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "issuanceRewards": true,
@@ -149,7 +149,7 @@
           "optimism.substreams.pinax.network:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "networkType": "mainnet",
@@ -1325,7 +1325,7 @@
           "mainnet.unichain.streamingfast.io:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "networkType": "mainnet",
@@ -1852,7 +1852,7 @@
           "polygon.streamingfast.io:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "indexerDocsUrls": [
@@ -3016,9 +3016,7 @@
         "protocol": "ethereum"
       },
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "networkType": "mainnet",
       "relations": [],
@@ -4643,7 +4641,7 @@
           "arb-one.streamingfast.io:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "networkType": "mainnet",
@@ -5223,7 +5221,7 @@
           "avalanche.substreams.pinax.network:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "networkType": "mainnet",
@@ -5550,6 +5548,49 @@
       }
     },
     {
+      "id": "arc",
+      "shortName": "Arc",
+      "fullName": "Arc Mainnet",
+      "aliases": [
+        "evm-5042",
+        "arc-mainnet"
+      ],
+      "caip2Id": "eip155:5042",
+      "graphNode": {
+        "protocol": "ethereum"
+      },
+      "explorerUrls": [],
+      "rpcUrls": [],
+      "apiUrls": [],
+      "services": {
+        "subgraphs": [
+          "https://api.studio.thegraph.com/deploy"
+        ]
+      },
+      "networkType": "mainnet",
+      "issuanceRewards": false,
+      "nativeToken": "USDC",
+      "docsUrl": "https://docs.arc.network",
+      "firehose": {
+        "blockType": "sf.ethereum.type.v2.Block",
+        "evmExtendedModel": false,
+        "bufUrl": "https://buf.build/streamingfast/firehose-ethereum",
+        "bytesEncoding": "hex",
+        "firstStreamableBlock": {
+          "id": "0x09944e07412986bb417fd0006c89ffb71ee523d68ce2017ec2dabc944c42edad",
+          "height": 0
+        },
+        "blockFeatures": [
+          "base"
+        ]
+      },
+      "icon": {
+        "web3Icons": {
+          "name": "arc"
+        }
+      }
+    },
+    {
       "id": "arc-testnet",
       "shortName": "Arc",
       "fullName": "Arc Testnet",
@@ -5783,7 +5824,7 @@
           "bnb.streamingfast.io:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "issuanceRewards": true,
@@ -6462,9 +6503,7 @@
         }
       ],
       "services": {
-        "subgraphs": [
-          "https://api.studio.thegraph.com/deploy"
-        ]
+        "subgraphs": []
       },
       "docsUrl": "https://docs.katana.network",
       "networkType": "mainnet",
@@ -7039,7 +7078,7 @@
           "base-mainnet.streamingfast.io:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "networkType": "mainnet",
@@ -7670,7 +7709,8 @@
       "fullName": "HyperEVM Mainnet",
       "aliases": [
         "evm-999",
-        "hyper-evm-mainnet"
+        "hyper-evm-mainnet",
+        "hyperevm"
       ],
       "caip2Id": "eip155:999",
       "networkType": "mainnet",
@@ -7698,6 +7738,9 @@
         ],
         "substreams": [
           "hyperevm.substreams.pinax.network:443"
+        ],
+        "tokenApi": [
+          "https://api.pinax.network"
         ]
       },
       "issuanceRewards": false,
@@ -7715,6 +7758,13 @@
         "blockFeatures": [
           "base"
         ]
+      },
+      "tokenApi": {
+        "features": [
+          "tokens",
+          "dexes"
+        ],
+        "networkId": "hyperevm"
       },
       "icon": {
         "web3Icons": {
@@ -8689,7 +8739,7 @@
           "solana.substreams.pinax.network:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "issuanceRewards": false,
@@ -9086,7 +9136,7 @@
           "tron.substreams.pinax.network:443"
         ],
         "tokenApi": [
-          "https://token-api.thegraph.com"
+          "https://api.pinax.network"
         ]
       },
       "issuanceRewards": false,
