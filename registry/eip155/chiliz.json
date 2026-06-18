@@ -6,24 +6,15 @@
   "caip2Id": "eip155:88888",
   "graphNode": { "protocol": "ethereum" },
   "explorerUrls": ["https://chiliscan.com"],
-  "rpcUrls": [
-    "https://rpc.chiliz.com",
-    "https://rpc.ankr.com/chiliz",
-    "https://chiliz.rpc.service.pinax.network"
-  ],
+  "rpcUrls": ["https://rpc.chiliz.com", "https://rpc.ankr.com/chiliz"],
   "apiUrls": [
-    { "url": "https://scan.chiliz.com/api", "kind": "etherscan" },
     {
       "url": "https://api.routescan.io/v2/network/mainnet/evm/88888/etherscan/api",
       "kind": "etherscan"
     }
   ],
   "networkType": "mainnet",
-  "services": {
-    "subgraphs": ["https://api.studio.thegraph.com/deploy"],
-    "firehose": ["chiliz.firehose.pinax.network:443"],
-    "substreams": ["chiliz.substreams.pinax.network:443"]
-  },
+  "services": { "subgraphs": ["https://api.studio.thegraph.com/deploy"] },
   "issuanceRewards": false,
   "nativeToken": "CHZ",
   "docsUrl": "https://docs.chiliz.com",
