@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.101",
+  "version": "0.7.100",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-07-01T21:19:52.557Z",
+  "updatedAt": "2026-07-01T20:17:55.175Z",
   "networks": [
     {
       "id": "mainnet",
@@ -23,9 +23,10 @@
         "https://etherscan.io"
       ],
       "rpcUrls": [
+        "https://ethereum-rpc.publicnode.com",
         "https://mainnet.gateway.tenderly.co",
         "https://eth.rpc.service.pinax.network",
-        "https://eth.drpc.org"
+        "https://mainnet.infura.io/v3/{INFURA_API_KEY}"
       ],
       "apiUrls": [
         {
@@ -121,8 +122,8 @@
       ],
       "rpcUrls": [
         "https://mainnet.optimism.io",
-        "https://optimism.rpc.service.pinax.network",
-        "https://optimism.drpc.org"
+        "https://optimism-rpc.publicnode.com",
+        "https://optimism.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -271,9 +272,7 @@
         "https://kairos.kaiascan.io"
       ],
       "rpcUrls": [
-        "https://public-en-kairos.node.kaia.io",
-        "https://klaytn-baobab.drpc.org",
-        "https://responsive-green-emerald.kaia-kairos.quiknode.pro"
+        "https://public-en-kairos.node.kaia.io"
       ],
       "apiUrls": [
         {
@@ -330,9 +329,7 @@
         "https://explorer.testnet.japanopenchain.org"
       ],
       "rpcUrls": [
-        "https://rpc-1.testnet.japanopenchain.org:8545",
-        "https://rpc-3.testnet.japanopenchain.org",
-        "https://rpc-2.testnet.japanopenchain.org:8545"
+        "https://rpc-1.testnet.japanopenchain.org:8545"
       ],
       "apiUrls": [
         {
@@ -448,8 +445,7 @@
       ],
       "rpcUrls": [
         "https://rpc.chiadochain.net",
-        "https://chiado.rpc.service.pinax.network",
-        "https://gnosis-chiado.drpc.org"
+        "https://chiado.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -516,9 +512,7 @@
         }
       ],
       "rpcUrls": [
-        "https://andromeda.metis.io",
-        "https://metis.drpc.org",
-        "https://metis-public.nodies.app"
+        "https://andromeda.metis.io"
       ],
       "networkType": "mainnet",
       "relations": [
@@ -575,8 +569,7 @@
       ],
       "rpcUrls": [
         "https://zkevm-rpc.com",
-        "https://polygon-zkevm.drpc.org",
-        "https://1rpc.io/polygon/zkevm"
+        "https://polygon-zkevm.drpc.org"
       ],
       "apiUrls": [],
       "networkType": "mainnet",
@@ -632,8 +625,7 @@
         "https://explorer.testnet.abs.xyz"
       ],
       "rpcUrls": [
-        "https://api.testnet.abs.xyz",
-        "https://abstract-sepolia.drpc.org"
+        "https://api.testnet.abs.xyz"
       ],
       "apiUrls": [
         {
@@ -708,6 +700,7 @@
         "https://celo-sepolia.blockscout.com"
       ],
       "rpcUrls": [
+        "https://forno.celo-sepolia.celo-testnet.org",
         "https://celosepolia.rpc.service.pinax.network",
         "https://rpc.ankr.com/celo_sepolia"
       ],
@@ -774,7 +767,7 @@
       "rpcUrls": [
         "https://sepolia.gateway.tenderly.co",
         "https://sepolia.rpc.service.pinax.network",
-        "https://eth-sepolia-testnet.api.pocket.network"
+        "https://sepolia.infura.io/v3/${INFURA_API_KEY}"
       ],
       "apiUrls": [
         {
@@ -854,8 +847,7 @@
       ],
       "rpcUrls": [
         "https://sepolia.optimism.io",
-        "https://opsepolia.rpc.service.pinax.network",
-        "https://optimism-sepolia.api.onfinality.io/public"
+        "https://opsepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -972,9 +964,7 @@
         "https://explorer.fuse.io"
       ],
       "rpcUrls": [
-        "https://rpc.fuse.io",
-        "https://fuse.drpc.org",
-        "https://fuse.api.pocket.network"
+        "https://rpc.fuse.io"
       ],
       "apiUrls": [
         {
@@ -1146,9 +1136,7 @@
         "https://moonbeam.moonscan.io"
       ],
       "rpcUrls": [
-        "https://rpc.api.moonbeam.network",
-        "https://1rpc.io/glmr",
-        "https://moonbeam.drpc.org"
+        "https://rpc.api.moonbeam.network"
       ],
       "apiUrls": [
         {
@@ -1209,9 +1197,7 @@
         "https://moonriver.moonscan.io"
       ],
       "rpcUrls": [
-        "https://rpc.api.moonriver.moonbeam.network",
-        "https://moonriver.api.onfinality.io/public",
-        "https://moonriver.unitedbloc.com"
+        "https://rpc.api.moonriver.moonbeam.network"
       ],
       "apiUrls": [
         {
@@ -1272,9 +1258,7 @@
         "https://moonbase.moonscan.io"
       ],
       "rpcUrls": [
-        "https://rpc.api.moonbase.moonbeam.network",
-        "https://moonbase-alpha.drpc.org",
-        "https://moonbeam-alpha.api.onfinality.io/public"
+        "https://rpc.api.moonbase.moonbeam.network"
       ],
       "apiUrls": [
         {
@@ -1367,8 +1351,7 @@
       ],
       "rpcUrls": [
         "https://mainnet.unichain.org",
-        "https://unichain.rpc.service.pinax.network",
-        "https://unichain.drpc.org"
+        "https://unichain.rpc.service.pinax.network"
       ],
       "issuanceRewards": true,
       "nativeToken": "ETH",
@@ -1429,8 +1412,7 @@
       ],
       "rpcUrls": [
         "https://sepolia.unichain.org",
-        "https://unisepolia.rpc.service.pinax.network",
-        "https://unichain-sepolia.drpc.org"
+        "https://unisepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -1496,9 +1478,7 @@
         "https://explorer.aurora.dev"
       ],
       "rpcUrls": [
-        "https://mainnet.aurora.dev",
-        "https://1rpc.io/aurora",
-        "https://aurora.drpc.org"
+        "https://mainnet.aurora.dev"
       ],
       "apiUrls": [
         {
@@ -1547,8 +1527,7 @@
         "https://explorer.testnet.aurora.dev"
       ],
       "rpcUrls": [
-        "https://testnet.aurora.dev",
-        "https://aurora-testnet.drpc.org"
+        "https://testnet.aurora.dev"
       ],
       "apiUrls": [],
       "services": {
@@ -1662,7 +1641,7 @@
         "https://seitrace.com"
       ],
       "rpcUrls": [
-        "https://sei-evm-rpc.stakeme.pro"
+        "https://sei-evm-rpc.publicnode.com"
       ],
       "apiUrls": [
         {
@@ -1779,8 +1758,7 @@
         "https://explorer-sepolia.gravity.xyz"
       ],
       "rpcUrls": [
-        "https://rpc-sepolia.gravity.xyz",
-        "https://gravity-alpha-sepolia.drpc.org"
+        "https://rpc-sepolia.gravity.xyz"
       ],
       "apiUrls": [
         {
@@ -1846,9 +1824,8 @@
         "https://polygonscan.com"
       ],
       "rpcUrls": [
-        "https://polygon.rpc.service.pinax.network",
-        "https://polygon.drpc.org",
-        "https://rpc.satelink.network/rpc/polygon"
+        "https://polygon-rpc.com",
+        "https://polygon.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -1930,9 +1907,8 @@
         "https://monadscan.com"
       ],
       "rpcUrls": [
-        "https://rpc-mainnet.monadinfra.com",
-        "https://infra.originstake.com/monad/evm",
-        "https://monad-mainnet.rpc.sentio.xyz"
+        "https://rpc.monad.xyz",
+        "https://rpc-mainnet.monadinfra.com"
       ],
       "apiUrls": [
         {
@@ -2054,9 +2030,7 @@
         "https://sonicscan.org"
       ],
       "rpcUrls": [
-        "https://rpc.soniclabs.com",
-        "https://sonic.drpc.org",
-        "https://sonic.api.pocket.network"
+        "https://rpc.soniclabs.com"
       ],
       "apiUrls": [
         {
@@ -2113,8 +2087,7 @@
         "https://testnet.sonicscan.org"
       ],
       "rpcUrls": [
-        "https://rpc.testnet.soniclabs.com",
-        "https://sonic-testnet-v2.drpc.org"
+        "https://rpc.testnet.soniclabs.com"
       ],
       "apiUrls": [
         {
@@ -2278,8 +2251,7 @@
         "https://explorer.gravity.xyz"
       ],
       "rpcUrls": [
-        "https://rpc.gravity.xyz",
-        "https://rpc.ankr.com/gravity"
+        "https://rpc.gravity.xyz"
       ],
       "apiUrls": [
         {
@@ -2393,8 +2365,7 @@
       ],
       "rpcUrls": [
         "https://api.harmony.one/?shard=0",
-        "https://1rpc.io/one",
-        "https://harmony-0.drpc.org"
+        "https://1rpc.io/one"
       ],
       "apiUrls": [
         {
@@ -2445,9 +2416,7 @@
         "https://sepolia.blastscan.io"
       ],
       "rpcUrls": [
-        "https://sepolia.blast.io",
-        "https://blast-testnet-public.nodies.app",
-        "https://blast-sepolia.drpc.org"
+        "https://sepolia.blast.io"
       ],
       "apiUrls": [
         {
@@ -2505,8 +2474,7 @@
       },
       "rpcUrls": [
         "https://pacific-rpc.manta.network/http",
-        "https://manta-pacific.drpc.org",
-        "https://1rpc.io/manta"
+        "https://manta-pacific.drpc.org"
       ],
       "explorerUrls": [
         "https://pacific-explorer.manta.network"
@@ -2571,8 +2539,7 @@
         }
       ],
       "rpcUrls": [
-        "https://mainnet.hsk.xyz",
-        "https://hashkey.drpc.org"
+        "https://mainnet.hsk.xyz"
       ],
       "networkType": "mainnet",
       "relations": [
@@ -2622,7 +2589,8 @@
         "https://blockscout.injective.network"
       ],
       "rpcUrls": [
-        "https://sentry.evm-rpc.injective.network"
+        "https://sentry.evm-rpc.injective.network",
+        "https://injectiveevm-rpc.polkachu.com"
       ],
       "apiUrls": [
         {
@@ -2681,8 +2649,7 @@
       ],
       "rpcUrls": [
         "https://rpc.soneium.org",
-        "https://soneium.rpc.service.pinax.network",
-        "https://soneium.drpc.org"
+        "https://soneium.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -2746,9 +2713,7 @@
         "https://explorer.swellnetwork.io"
       ],
       "rpcUrls": [
-        "https://rpc.ankr.com/swell",
-        "https://swell-mainnet.rpc.sentio.xyz",
-        "https://swell-mainnet.alt.technology"
+        "https://rpc.ankr.com/swell"
       ],
       "apiUrls": [
         {
@@ -2814,8 +2779,7 @@
         }
       ],
       "rpcUrls": [
-        "https://rpc.ankr.com/swell_sepolia",
-        "https://swell-testnet.drpc.org"
+        "https://rpc.ankr.com/swell_sepolia"
       ],
       "networkType": "testnet",
       "relations": [
@@ -2872,8 +2836,7 @@
       ],
       "rpcUrls": [
         "https://rpc.minato.soneium.org",
-        "https://minato.rpc.service.pinax.network",
-        "https://soneium-minato.drpc.org"
+        "https://minato.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -3061,8 +3024,7 @@
         "https://app.roninchain.com"
       ],
       "rpcUrls": [
-        "https://ronin.drpc.org",
-        "https://ronin-mainnet.gateway.tatum.io"
+        "https://api.roninchain.com/rpc"
       ],
       "issuanceRewards": false,
       "nativeToken": "RON",
@@ -3116,8 +3078,8 @@
         "https://opbnbscan.com"
       ],
       "rpcUrls": [
-        "https://1rpc.io/opbnb",
-        "https://opbnb.drpc.org"
+        "https://opbnb-mainnet-rpc.bnbchain.org",
+        "https://opbnb.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -3289,8 +3251,7 @@
       ],
       "rpcUrls": [
         "https://rpc.ankr.com/kava_evm",
-        "https://evm.kava-rpc.com",
-        "https://kava.drpc.org"
+        "https://evm.kava-rpc.com"
       ],
       "networkType": "mainnet",
       "services": {},
@@ -3338,8 +3299,7 @@
         }
       ],
       "rpcUrls": [
-        "https://rpc.lens.dev",
-        "https://rpc.lens.xyz"
+        "https://rpc.lens.dev"
       ],
       "services": {
         "subgraphs": []
@@ -3397,8 +3357,7 @@
       ],
       "explorerUrls": [],
       "rpcUrls": [
-        "https://rpc.cardona.zkevm-rpc.com",
-        "https://polygon-zkevm-cardona.drpc.org"
+        "https://rpc.cardona.zkevm-rpc.com"
       ],
       "apiUrls": [],
       "networkType": "testnet",
@@ -3445,9 +3404,7 @@
         "https://explorer.cronos.org"
       ],
       "rpcUrls": [
-        "https://evm.cronos.org",
-        "https://cronos.drpc.org",
-        "https://cronos.rpc.sentio.xyz"
+        "https://evm.cronos.org"
       ],
       "apiUrls": [
         {
@@ -3500,9 +3457,7 @@
         "https://ftmscout.com"
       ],
       "rpcUrls": [
-        "https://fantom.drpc.org",
-        "https://1rpc.io/ftm",
-        "https://rpc.fantom.network"
+        "https://fantom.drpc.org"
       ],
       "apiUrls": [
         {
@@ -3562,9 +3517,7 @@
         "https://fraxscan.com"
       ],
       "rpcUrls": [
-        "https://rpc.frax.com",
-        "https://fraxtal.drpc.org",
-        "https://fraxtal.api.pocket.network"
+        "https://rpc.frax.com"
       ],
       "apiUrls": [
         {
@@ -3621,8 +3574,7 @@
         "protocol": "ethereum"
       },
       "rpcUrls": [
-        "https://api.mainnet.abs.xyz",
-        "https://abstract-mainnet.gateway.tatum.io"
+        "https://api.mainnet.abs.xyz"
       ],
       "explorerUrls": [
         "https://abscan.org"
@@ -3682,8 +3634,7 @@
       ],
       "rpcUrls": [
         "https://mainnet.boba.network",
-        "https://boba-eth.drpc.org",
-        "https://1rpc.io/boba/eth"
+        "https://boba-eth.drpc.org"
       ],
       "apiUrls": [
         {
@@ -3810,9 +3761,7 @@
         "https://rootstock.blockscout.com"
       ],
       "rpcUrls": [
-        "https://public-node.rsk.co",
-        "https://rootstock.drpc.org",
-        "https://mycrypto.rsk.co"
+        "https://public-node.rsk.co"
       ],
       "apiUrls": [
         {
@@ -3872,9 +3821,7 @@
         "https://sepolia.explorer.zksync.io"
       ],
       "rpcUrls": [
-        "https://sepolia.era.zksync.dev",
-        "https://rpc.ankr.com/zksync_era_sepolia",
-        "https://zksync-sepolia.api.onfinality.io/public"
+        "https://sepolia.era.zksync.dev"
       ],
       "apiUrls": [
         {
@@ -3937,9 +3884,7 @@
         "https://rootstock-testnet.blockscout.com"
       ],
       "rpcUrls": [
-        "https://public-node.testnet.rsk.co",
-        "https://rootstock-testnet.drpc.org",
-        "https://mycrypto.testnet.rsk.co"
+        "https://public-node.testnet.rsk.co"
       ],
       "apiUrls": [
         {
@@ -4000,8 +3945,7 @@
       ],
       "rpcUrls": [
         "https://mainnet.era.zksync.io",
-        "https://zksyncera.rpc.service.pinax.network",
-        "https://1rpc.io/zksync2-era"
+        "https://zksyncera.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -4179,8 +4123,7 @@
         "https://curtis.apescan.io"
       ],
       "rpcUrls": [
-        "https://curtis.rpc.caldera.xyz/http",
-        "https://rpc.curtis.apechain.com"
+        "https://curtis.rpc.caldera.xyz/http"
       ],
       "apiUrls": [
         {
@@ -4240,8 +4183,7 @@
         "https://apescan.io"
       ],
       "rpcUrls": [
-        "https://rpc.apechain.com",
-        "https://apechain.drpc.org"
+        "https://rpc.apechain.com"
       ],
       "apiUrls": [
         {
@@ -4292,9 +4234,7 @@
       ],
       "apiUrls": [],
       "rpcUrls": [
-        "https://peaq.api.onfinality.io/public",
-        "https://quicknode1.peaq.xyz",
-        "https://quicknode2.peaq.xyz"
+        "https://peaq.api.onfinality.io/public"
       ],
       "services": {
         "subgraphs": [
@@ -4340,9 +4280,7 @@
         "https://explorer.mode.network"
       ],
       "rpcUrls": [
-        "https://mainnet.mode.network",
-        "https://1rpc.io/mode",
-        "https://mode.drpc.org"
+        "https://mainnet.mode.network"
       ],
       "apiUrls": [
         {
@@ -4491,11 +4429,7 @@
         "web3Icons": {
           "name": "botanix"
         }
-      },
-      "rpcUrls": [
-        "https://rpc.ankr.com/botanix_mainnet",
-        "https://rpc.botanixlabs.com"
-      ]
+      }
     },
     {
       "id": "lens-testnet",
@@ -4513,8 +4447,7 @@
         "https://block-explorer.testnet.lens.dev"
       ],
       "rpcUrls": [
-        "https://rpc.testnet.lens.dev",
-        "https://lens-testnet.drpc.org"
+        "https://rpc.testnet.lens.dev"
       ],
       "apiUrls": [
         {
@@ -4671,9 +4604,11 @@
         "https://arbiscan.io"
       ],
       "rpcUrls": [
-        "https://arbone.rpc.service.pinax.network",
-        "https://arbitrum.drpc.org",
-        "https://arbitrum-one.rpc.sentio.xyz"
+        "https://arbitrum-one.publicnode.com",
+        "https://arb1.arbitrum.io/rpc",
+        "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}",
+        "https://arbitrum-mainnet.infura.io/v3/${INFURA_API_KEY}",
+        "https://arbone.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -4769,9 +4704,8 @@
         "https://sepolia.arbiscan.io"
       ],
       "rpcUrls": [
-        "https://arbsepolia.rpc.service.pinax.network",
-        "https://arbitrum-sepolia.drpc.org",
-        "https://arbitrum-sepolia-testnet.api.pocket.network"
+        "https://sepolia-rollup.arbitrum.io/rpc",
+        "https://arbsepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -4836,8 +4770,7 @@
       ],
       "rpcUrls": [
         "https://tempo-mainnet.drpc.org",
-        "https://tempo.rpc.service.pinax.network",
-        "https://rpc.mainnet.tempo.xyz"
+        "https://tempo.rpc.service.pinax.network"
       ],
       "services": {
         "subgraphs": [
@@ -4945,8 +4878,7 @@
       ],
       "rpcUrls": [
         "https://forno.celo.org",
-        "https://celo.rpc.service.pinax.network",
-        "https://celo.drpc.org"
+        "https://celo.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5042,7 +4974,7 @@
         "bufUrl": "https://buf.build/streamingfast/firehose-ethereum",
         "bytesEncoding": "hex",
         "firstStreamableBlock": {
-          "id": "0xba49153e6f3996a340f3fe3d69e7c0826b717ae672cb115cf0527cada0b78e9e",
+          "id": "0xfa173125b3a5ac32bed1a5c441a269524f3ce621c6b2827ce1be465ea43c4731",
           "height": 0
         },
         "blockFeatures": [
@@ -5129,8 +5061,7 @@
         }
       ],
       "rpcUrls": [
-        "https://rpc.hemi.network/rpc",
-        "https://hemi.drpc.org"
+        "https://rpc.hemi.network/rpc"
       ],
       "services": {
         "subgraphs": [
@@ -5184,8 +5115,7 @@
       ],
       "rpcUrls": [
         "https://api.avax-test.network/ext/bc/C/rpc",
-        "https://fuji.rpc.service.pinax.network",
-        "https://avalanche-fuji.drpc.org"
+        "https://fuji.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5253,8 +5183,8 @@
       ],
       "rpcUrls": [
         "https://api.avax.network/ext/bc/C/rpc",
-        "https://avalanche.rpc.service.pinax.network",
-        "https://1rpc.io/avax/c"
+        "https://avalanche-c-chain-rpc.publicnode.com",
+        "https://avalanche.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5351,8 +5281,7 @@
       ],
       "rpcUrls": [
         "https://mainnet.megaeth.com/rpc",
-        "https://megaeth.rpc.service.pinax.network",
-        "https://megaeth.drpc.org"
+        "https://megaeth.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -5467,8 +5396,7 @@
       ],
       "rpcUrls": [
         "https://babel-api.mainnet.iotex.io",
-        "https://iotex.api.onfinality.io/public",
-        "https://babel-api.mainnet.iotex.one"
+        "https://iotex.api.onfinality.io/public"
       ],
       "apiUrls": [
         {
@@ -5580,8 +5508,7 @@
         "https://xexplorer.neo.org"
       ],
       "rpcUrls": [
-        "https://mainnet-1.rpc.banelabs.org",
-        "https://mainnet-2.rpc.banelabs.org"
+        "https://mainnet-1.rpc.banelabs.org"
       ],
       "apiUrls": [
         {
@@ -5655,8 +5582,7 @@
       ],
       "rpcUrls": [
         "https://480.rpc.thirdweb.com",
-        "https://worldchain-mainnet.gateway.tenderly.co",
-        "https://worldchain.drpc.org"
+        "https://worldchain-mainnet.gateway.tenderly.co"
       ],
       "issuanceRewards": false,
       "nativeToken": "ETH",
@@ -5738,8 +5664,7 @@
         "https://testnet.arcscan.app"
       ],
       "rpcUrls": [
-        "https://rpc.testnet.arc.network",
-        "https://arc-testnet.drpc.org"
+        "https://rpc.testnet.arc.network"
       ],
       "apiUrls": [
         {
@@ -5792,9 +5717,7 @@
         "https://sepolia.scrollscan.com"
       ],
       "rpcUrls": [
-        "https://sepolia-rpc.scroll.io",
-        "https://scroll-sepolia.drpc.org",
-        "https://scroll-sepolia-public.nodies.app"
+        "https://sepolia-rpc.scroll.io"
       ],
       "apiUrls": [
         {
@@ -5862,9 +5785,7 @@
         "https://scrollscan.com"
       ],
       "rpcUrls": [
-        "https://rpc.scroll.io",
-        "https://1rpc.io/scroll",
-        "https://scroll.drpc.org"
+        "https://rpc.scroll.io"
       ],
       "apiUrls": [
         {
@@ -5937,9 +5858,9 @@
         "https://bscscan.com"
       ],
       "rpcUrls": [
-        "https://bsc.rpc.service.pinax.network",
-        "https://bsc.rpc.sentio.xyz",
-        "https://api.zan.top/bsc-mainnet"
+        "https://bsc-dataseed1.binance.org",
+        "https://bsc-dataseed1.defibit.io",
+        "https://bsc.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6024,9 +5945,8 @@
         "https://hoodi.etherscan.io"
       ],
       "rpcUrls": [
-        "https://hoodi.rpc.service.pinax.network",
-        "https://hoodi.rpc.sentio.xyz",
-        "https://rpc.hoodi.ethpandaops.io"
+        "https://0xrpc.io/hoodi",
+        "https://hoodi.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6088,9 +6008,7 @@
         }
       ],
       "rpcUrls": [
-        "https://rpc-gel.inkonchain.com",
-        "https://ink.drpc.org",
-        "https://ink.api.pocket.network"
+        "https://rpc-gel.inkonchain.com"
       ],
       "services": {
         "subgraphs": []
@@ -6137,8 +6055,7 @@
       ],
       "rpcUrls": [
         "https://rpc.sepolia.linea.build",
-        "https://lineasepolia.rpc.service.pinax.network",
-        "https://linea-sepolia.drpc.org"
+        "https://lineasepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6211,8 +6128,8 @@
       ],
       "rpcUrls": [
         "https://rpc.linea.build",
-        "https://linea.rpc.service.pinax.network",
-        "https://1rpc.io/linea"
+        "https://linea-mainnet.infura.io/v3/${INFURA_API_KEY}",
+        "https://linea.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6286,8 +6203,7 @@
         "https://megaeth-testnet-v2.blockscout.com"
       ],
       "rpcUrls": [
-        "https://timothy.megaeth.com/rpc",
-        "https://carrot.megaeth.com/rpc"
+        "https://timothy.megaeth.com/rpc"
       ],
       "apiUrls": [
         {
@@ -6345,6 +6261,7 @@
         "https://explorer.xai-chain.net"
       ],
       "rpcUrls": [
+        "https://xai-chain.net/rpc",
         "https://rpc.ankr.com/xai"
       ],
       "apiUrls": [
@@ -6408,8 +6325,7 @@
         }
       ],
       "rpcUrls": [
-        "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
-        "https://zeta-chain.drpc.org"
+        "https://zetachain-mainnet.g.allthatnode.com/archive/evm"
       ],
       "services": {
         "subgraphs": [
@@ -6517,8 +6433,7 @@
       ],
       "rpcUrls": [
         "https://katana-bokuto.gateway.tenderly.co",
-        "https://rpc-bokuto.katanarpc.com",
-        "https://katana-testnet.drpc.org"
+        "https://rpc-bokuto.katanarpc.com"
       ],
       "apiUrls": [
         {
@@ -6579,8 +6494,7 @@
         "https://testnet.explorer.hemi.xyz"
       ],
       "rpcUrls": [
-        "https://testnet.rpc.hemi.network/rpc",
-        "https://hemi-testnet.drpc.org"
+        "https://testnet.rpc.hemi.network/rpc"
       ],
       "apiUrls": [
         {
@@ -6677,12 +6591,7 @@
         "web3Icons": {
           "name": "katana"
         }
-      },
-      "rpcUrls": [
-        "https://katana.drpc.org",
-        "https://rpc.katanarpc.com",
-        "https://rpc.katana.network"
-      ]
+      }
     },
     {
       "id": "ink-sepolia",
@@ -6707,8 +6616,7 @@
         }
       ],
       "rpcUrls": [
-        "https://rpc-gel-sepolia.inkonchain.com",
-        "https://ink-sepolia.drpc.org"
+        "https://rpc-gel-sepolia.inkonchain.com"
       ],
       "services": {
         "subgraphs": []
@@ -6762,8 +6670,7 @@
       ],
       "rpcUrls": [
         "https://rpc.zora.energy",
-        "https://zora.rpc.service.pinax.network",
-        "https://zora.drpc.org"
+        "https://zora.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6849,9 +6756,8 @@
         "https://amoy.polygonscan.com"
       ],
       "rpcUrls": [
-        "https://amoy.rpc.service.pinax.network",
-        "https://polygon-amoy.drpc.org",
-        "https://polygon-amoy.api.onfinality.io/public"
+        "https://rpc-amoy.polygon.technology",
+        "https://amoy.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -6967,8 +6873,7 @@
       },
       "rpcUrls": [
         "https://rpc.berachain.com",
-        "https://berachain.drpc.org",
-        "https://berachain.rpc.sentio.xyz"
+        "https://rpc.berachain-apis.com"
       ],
       "explorerUrls": [
         "https://berascan.com"
@@ -7082,8 +6987,7 @@
       ],
       "rpcUrls": [
         "https://rpc.blast.io",
-        "https://blast.rpc.service.pinax.network",
-        "https://blast.drpc.org"
+        "https://blast.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -7152,9 +7056,7 @@
         "https://kaiascan.io"
       ],
       "rpcUrls": [
-        "https://public-en.node.kaia.io",
-        "https://klaytn.drpc.org",
-        "https://rpc.ankr.com/kaia"
+        "https://public-en.node.kaia.io"
       ],
       "apiUrls": [
         {
@@ -7208,8 +7110,8 @@
       ],
       "rpcUrls": [
         "https://mainnet.base.org",
-        "https://base.rpc.service.pinax.network",
-        "https://1rpc.io/base"
+        "https://base-rpc.publicnode.com",
+        "https://base.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -7299,8 +7201,8 @@
       ],
       "rpcUrls": [
         "https://sepolia.base.org",
-        "https://basesepolia.rpc.service.pinax.network",
-        "https://base-sepolia.drpc.org"
+        "https://base-sepolia-rpc.publicnode.com",
+        "https://basesepolia.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -7483,8 +7385,7 @@
         "https://www.vicscan.xyz"
       ],
       "rpcUrls": [
-        "https://rpc.viction.xyz",
-        "https://viction.drpc.org"
+        "https://rpc.viction.xyz"
       ],
       "services": {
         "subgraphs": [
@@ -7643,8 +7544,7 @@
         "https://testnet.modescan.io"
       ],
       "rpcUrls": [
-        "https://sepolia.mode.network",
-        "https://mode-testnet.drpc.org"
+        "https://sepolia.mode.network"
       ],
       "apiUrls": [
         {
@@ -7706,8 +7606,8 @@
         "https://testnet.bscscan.com"
       ],
       "rpcUrls": [
-        "https://chapel.rpc.service.pinax.network",
-        "https://bsc-testnet.rpc.sentio.xyz"
+        "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+        "https://chapel.rpc.service.pinax.network"
       ],
       "apiUrls": [
         {
@@ -7772,7 +7672,7 @@
         "https://stablescan.xyz"
       ],
       "rpcUrls": [
-        "https://stable-mainnet.rpc.sentio.xyz"
+        "https://rpc.stable.xyz"
       ],
       "apiUrls": [
         {
