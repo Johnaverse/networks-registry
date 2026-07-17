@@ -12,10 +12,7 @@
     { "kind": "l2Of", "network": "bsc" },
     { "kind": "svmOf", "network": "bsc" }
   ],
-  "services": {
-    "firehose": ["svmbnb.firehose.pinax.network:443"],
-    "substreams": ["svmbnb.substreams.pinax.network:443"]
-  },
+  "services": {},
   "issuanceRewards": false,
   "nativeToken": "BNB",
   "docsUrl": "https://docs.soo.network",
