@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.114",
+  "version": "0.7.113",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-08-27T02:30:24.114Z",
+  "updatedAt": "2026-08-27T02:27:48.931Z",
   "networks": [
     {
       "id": "mainnet",
@@ -141,13 +141,11 @@
         "sps": [],
         "firehose": [
           "mainnet.optimism.streamingfast.io:443",
-          "optimism.firehose.pinax.network:443",
-          "op.firehose.data.nexus:443"
+          "optimism.firehose.pinax.network:443"
         ],
         "substreams": [
           "mainnet.optimism.streamingfast.io:443",
-          "optimism.substreams.pinax.network:443",
-          "op.substreams.data.nexus:443"
+          "optimism.substreams.pinax.network:443"
         ],
         "tokenApi": [
           "https://api.pinax.network"
