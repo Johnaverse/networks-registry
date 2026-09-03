@@ -1,9 +1,9 @@
 {
   "$schema": "https://networks-registry.thegraph.com/TheGraphNetworksRegistrySchema_v0_7.json",
-  "version": "0.7.115",
+  "version": "0.7.118",
   "title": "The Graph networks registry",
   "description": "This registry was generated and validated at https://github.com/graphprotocol/networks-registry",
-  "updatedAt": "2026-08-28T00:01:55.961Z",
+  "updatedAt": "2026-09-02T18:38:14.348Z",
   "networks": [
     {
       "id": "mainnet",
@@ -7970,7 +7970,7 @@
       "docsUrl": "https://hyperliquid.gitbook.io/hyperliquid-docs/hyperevm",
       "firehose": {
         "blockType": "sf.ethereum.type.v2.Block",
-        "evmExtendedModel": false,
+        "evmExtendedModel": true,
         "bufUrl": "https://buf.build/streamingfast/firehose-ethereum",
         "bytesEncoding": "hex",
         "firstStreamableBlock": {
@@ -7978,7 +7978,7 @@
           "height": 0
         },
         "blockFeatures": [
-          "base"
+          "extended"
         ]
       },
       "tokenApi": {
